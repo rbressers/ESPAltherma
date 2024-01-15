@@ -15,6 +15,7 @@
 #define MQTT_PASSWORD "hiou89r23"//leave empty if not set (bad!)
 #define MQTT_PORT 1883
 
+
 #define FREQUENCY 30000 //query values every 30 sec
 
 #if defined(ARDUINO_M5Stick_C) || defined(ARDUINO_M5Stick_C_Plus)
