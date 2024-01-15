@@ -1,7 +1,7 @@
 //Setup your credentials and mqtt info here:
 //only change the value between the " " leave the rest of the line untouched.
-#define WIFI_SSID "SSID"//**Your SSID here**
-#define WIFI_PWD "password"//**Your password here** leave empty if open (bad!)
+#define WIFI_SSID "WaaiFaai24"//**Your SSID here**
+#define WIFI_PWD "zbb8xwl3"//**Your password here** leave empty if open (bad!)
 
 //Uncomment this to set a static IP instead of DHCP for the ESP (Separate by commas instead of dots)
 //#define WIFI_IP 192, 168, 0, 5
@@ -10,9 +10,9 @@
 //#define WIFI_PRIMARY_DNS 8, 8, 8, 8     //optional
 //#define WIFI_SECONDARY_DNS 8, 8, 4, 4   //optional
 
-#define MQTT_SERVER "192.168.1.4"//**IP address here of your MQTT server**
-#define MQTT_USERNAME ""//leave empty if not set (bad!)
-#define MQTT_PASSWORD ""//leave empty if not set (bad!)
+#define MQTT_SERVER "192.168.1.1"//**IP address here of your MQTT server**
+#define MQTT_USERNAME "mqtt"//leave empty if not set (bad!)
+#define MQTT_PASSWORD "hiou89r23"//leave empty if not set (bad!)
 #define MQTT_PORT 1883
 
 #define FREQUENCY 30000 //query values every 30 sec
@@ -89,13 +89,14 @@
 //#include "def/Altherma(ERGA D EHV-EHB-EHVZ DA series 04-08kW).h"
 //#include "def/Altherma(ERGA D EHV-EHB-EHVZ DJ series 04-08 kW).h"
 //#include "def/Altherma(ERGA E EHSH-X P30-50 E_EF series 04-08kW-ECH2O).h"
-//#include "def/Altherma(ERGA E EHV-EHB-EHVZ E_EJ series 04-08kW).h"
+#include "def/Altherma(ERGA E EHV-EHB-EHVZ E_EJ series 04-08kW).h"
 //#include "def/Altherma(ERLA D EBSH-X 16P30-50 D SERIES 11-16kW-ECH2O).h"
 //#include "def/Altherma(ERLA D EBV-EBB-EBVZ D SERIES 11-16kW).h"
 //#include "def/Altherma(ERLA03 D EHFH-EHFZ DJ series 3kW).h"
 //#include "def/Altherma(Hybrid).h"
 //#include "def/Altherma(LT_CA_CB_04-08kW).h"
 //#include "def/Altherma(LT_CA_CB_11-16kW).h"
+
 //#include "def/Altherma(LT_CB_04-08kW Bizone).h"
 //#include "def/Altherma(LT_CB_11-16kW Bizone).h"
 //#include "def/Altherma(LT_EBLQ-EBLQ-CA series 5-7kW Monobloc).h"
